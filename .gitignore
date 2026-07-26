@@ -1,0 +1,16 @@
+# Build output — the store ZIP is rebuilt with `node build.js`
+dist/
+
+# Store screenshots: real Instagram screens with other people's usernames in them.
+# Keep these local; upload straight to the dashboard.
+store/screenshots/
+
+# Research notes, not for publication
+competitor-*.txt
+
+# Superseded by build.js
+build.ps1
+
+node_modules/
+.DS_Store
+Thumbs.db

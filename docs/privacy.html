@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Highwater — Privacy Policy</title>
+<style>
+  :root { color-scheme: dark light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px 96px;
+    background: #121212;
+    color: #e8e8e8;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  .mark {
+    display: inline-flex; gap: 4px; flex-direction: column;
+    width: 34px; margin-bottom: 22px;
+  }
+  .mark i { height: 6px; border-radius: 3px; background: linear-gradient(90deg, #ff4d5a, #d62438); }
+  .mark i:nth-child(1) { width: 100%; }
+  .mark i:nth-child(2) { width: 72%; }
+  .mark i:nth-child(3) { width: 44%; }
+  h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .updated { color: #888; font-size: 14px; margin: 0 0 36px; }
+  h2 { font-size: 18px; margin: 40px 0 10px; letter-spacing: -0.01em; }
+  p, li { color: #cfcfcf; }
+  ul { padding-left: 22px; }
+  li { margin: 7px 0; }
+  strong { color: #fff; }
+  code {
+    background: #1e1e1e; border: 1px solid #2f2f2f; border-radius: 4px;
+    padding: 1px 5px; font-size: 13.5px; color: #ffb3ba;
+  }
+  a { color: #ff6b76; }
+  hr { border: 0; border-top: 1px solid #2a2a2a; margin: 44px 0 24px; }
+  footer { color: #777; font-size: 13.5px; }
+  @media (prefers-color-scheme: light) {
+    body { background: #fff; color: #16181d; }
+    p, li { color: #3b4049; }
+    strong { color: #000; }
+    .updated, footer { color: #6a7079; }
+    code { background: #f4f4f6; border-color: #e2e2e6; color: #b3243a; }
+    a { color: #c31f33; }
+    hr { border-top-color: #e6e6ea; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" aria-hidden="true"><i></i><i></i><i></i></div>
+
+  <h1>Highwater — Privacy Policy</h1>
+  <p class="updated">Last updated 27 July 2026</p>
+
+  <p>Highwater is a Chrome extension that re-sorts and filters Instagram posts that are
+  already visible in your own logged-in browser session.</p>
+
+  <h2>What Highwater does with data</h2>
+  <p>Highwater reads the post data Instagram already sends to your browser when you browse
+  the Explore page, a profile, or a topic search: post link, view count, like count,
+  comment count, caption text, thumbnail URL, author username, and upload date.</p>
+  <p>That data is kept <strong>on your own computer only</strong>, in Chrome's local
+  extension storage (<code>chrome.storage.local</code>), so your sorted list survives page
+  navigation. You can erase all of it at any time with the <strong>Clear collected</strong>
+  button in the panel, or by removing the extension.</p>
+
+  <h2>What Highwater does not do</h2>
+  <ul>
+    <li>It does <strong>not</strong> send your data to us, or to any server or third party.
+    There is no Highwater backend, no analytics, no telemetry, and no tracking pixels.</li>
+    <li>It does <strong>not</strong> collect your Instagram password, credentials, cookies,
+    direct messages, or any private account information.</li>
+    <li>It does <strong>not</strong> sell, rent, or transfer any data to third parties.</li>
+    <li>It does <strong>not</strong> use your data for advertising, credit scoring, or
+    lending.</li>
+    <li>It does <strong>not</strong> run on any website other than
+    <code>https://www.instagram.com</code>.</li>
+  </ul>
+
+  <h2>Network requests</h2>
+  <p>Highwater makes network requests to <code>https://www.instagram.com</code> only, and
+  only when you click a topic keyword chip — it asks Instagram's own search endpoint for
+  posts matching that keyword, using your existing logged-in session, exactly as the
+  Instagram website itself would. No request is ever made to any other domain.</p>
+
+  <h2>Permissions and why they are needed</h2>
+  <ul>
+    <li><code>storage</code> — to save your keyword chips, sort choice, panel open/closed
+    state, and the collected post list locally on your device.</li>
+    <li>Access to <code>https://www.instagram.com</code> — Highwater's entire function is
+    re-sorting Instagram's own grid, so it must run on Instagram pages. It has no access to
+    any other site.</li>
+  </ul>
+
+  <h2>Exported files</h2>
+  <p>The <strong>Export</strong> button writes an <code>.xlsx</code> file directly to your
+  computer's Downloads folder using code that runs locally in your browser. The file is not
+  uploaded anywhere.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted at this URL and the date
+  above will be revised.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:msohaibn.007@gmail.com">msohaibn.007@gmail.com</a></p>
+
+  <hr />
+  <footer>Highwater is not affiliated with, endorsed by, or sponsored by Instagram or
+  Meta Platforms, Inc.</footer>
+</main>
+</body>
+</html>
