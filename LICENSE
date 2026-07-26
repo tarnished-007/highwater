@@ -1,0 +1,44 @@
+Highwater — Proprietary License
+Copyright (c) 2026 Sohaib Nayyar. All rights reserved.
+
+The source code of Highwater is published for one reason only: so that anyone who
+installs the extension can verify exactly what it does with their data. Publishing
+it is not a grant of rights to reuse it.
+
+YOU MAY:
+
+  * Install and run Highwater on computers you own or control, for your own use.
+  * Read the source code to satisfy yourself about how it behaves.
+
+YOU MAY NOT, without prior written permission from the copyright holder:
+
+  * Copy, reproduce, or redistribute this software or any part of it, in source
+    or packaged form — including republishing it, in whole or in modified form,
+    to the Chrome Web Store or any other extension store, download site, or
+    marketplace.
+  * Modify, adapt, translate, or create derivative works from it.
+  * Sell, sublicense, rent, lease, or otherwise commercially exploit it.
+  * Use its source code as the basis of a competing product.
+  * Remove or alter this notice, the copyright, or any attribution.
+
+No trademark, brand, or naming rights are granted. "Highwater" and its icon may
+not be used to identify any other product.
+
+To request permission for anything above: msohaibn.007@gmail.com
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+One limitation you should know about: for as long as this repository is public,
+GitHub's Terms of Service give other GitHub users a limited right to view and
+fork it on GitHub. Nothing here overrides GitHub's Terms. The restrictions above
+govern every other use, everywhere else.
+
+Highwater is not affiliated with, endorsed by, or sponsored by Instagram or Meta
+Platforms, Inc.

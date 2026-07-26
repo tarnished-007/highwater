@@ -18,16 +18,16 @@ the grid.
 
 ## Install
 
-Not in the Chrome Web Store — grab the zip from the
-**[latest release](../../releases/latest)**, extract it, and load it at
-`chrome://extensions` with **Developer mode** on → **Load unpacked**.
+A Chrome Web Store listing is pending review. Until it's live, install from the
+**[latest release](../../releases/latest)**: download the zip, extract it, and load
+it at `chrome://extensions` with **Developer mode** on → **Load unpacked**.
 
 **→ [Step-by-step install guide](INSTALL.md)** — written for non-technical users,
 with the common failure modes. Send people that link, not this one.
 
 Note that extensions installed this way **do not auto-update**, and Chrome shows
 a "disable developer mode extensions" reminder on startup. Both are covered in
-[INSTALL.md](INSTALL.md).
+[INSTALL.md](INSTALL.md); neither applies once the store listing is live.
 
 ## Build the store package
 
@@ -86,3 +86,12 @@ No server, no account, no analytics, and nothing leaves your machine. Full polic
 - [ ] Export to Notion (swipe-file workflow)
 - [ ] Saved keyword presets ("Content", "Photography", ...)
 - [ ] AI topic classification of captions, for reels that carry no hashtags
+
+## License
+
+**Proprietary — all rights reserved.** The source is public so that anyone
+installing the extension can verify what it does with their data, not so it can be
+reused. You may run it and read it; you may not redistribute, modify, republish, or
+build on it without written permission. See [LICENSE](LICENSE).
+
+Not affiliated with, endorsed by, or sponsored by Instagram or Meta Platforms, Inc.

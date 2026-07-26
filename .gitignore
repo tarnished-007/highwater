@@ -8,9 +8,6 @@ store/screenshots/
 # Research notes, not for publication
 competitor-*.txt
 
-# Superseded by build.js
-build.ps1
-
 node_modules/
 .DS_Store
 Thumbs.db

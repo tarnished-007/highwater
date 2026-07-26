@@ -69,7 +69,17 @@ Not affiliated with, endorsed by, or sponsored by Instagram or Meta Platforms, I
 - Screenshots 1280×800 (1 minimum, 5 max) → see `make-screenshot.ps1` below
 - Small promo tile 440×280 → optional, skip for now
 
-**Support / homepage URL** — optional; use your site or a GitHub repo URL if you have one.
+**Homepage URL**
+
+```
+https://github.com/tarnished-007/highwater
+```
+
+**Support URL**
+
+```
+https://github.com/tarnished-007/highwater/issues
+```
 
 ---
 
@@ -111,11 +121,15 @@ locally and written to `chrome.storage.local`.
 - ✔ I do not use or transfer user data for purposes unrelated to my item's single purpose
 - ✔ I do not use or transfer user data to determine creditworthiness or for lending purposes
 
-**Privacy policy URL:** required. Publish `store/PRIVACY.md` somewhere public and
-paste that URL. Fastest options:
-1. A page on your own site (e.g. `sohaib.studio/highwater/privacy`)
-2. A public GitHub Gist — paste the markdown, save as `PRIVACY.md`, use the gist URL
-3. A Notion page shared to web
+**Privacy policy URL** — live and verified (HTTP 200), just paste it:
+
+```
+https://tarnished-007.github.io/highwater/privacy.html
+```
+
+Served by GitHub Pages from `docs/privacy.html` on `main`. If the repo is ever made
+private, Pages stops serving on a free account and this URL dies — move the policy
+to a public Gist or `sohaib.studio` first, then update it here and in the dashboard.
 
 ---
 
