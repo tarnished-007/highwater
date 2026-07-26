@@ -18,16 +18,16 @@ the grid.
 
 ## Install
 
-**From the Chrome Web Store** — unlisted, so the link is the only way in:
+Not in the Chrome Web Store — grab the zip from the
+**[latest release](../../releases/latest)**, extract it, and load it at
+`chrome://extensions` with **Developer mode** on → **Load unpacked**.
 
-<!-- TODO: paste the store URL here once the item is published -->
+**→ [Step-by-step install guide](INSTALL.md)** — written for non-technical users,
+with the common failure modes. Send people that link, not this one.
 
-**From source:**
-
-1. Open `chrome://extensions`
-2. Enable **Developer mode** (top right)
-3. **Load unpacked** → select this folder
-4. Go to <https://www.instagram.com/explore/> and scroll
+Note that extensions installed this way **do not auto-update**, and Chrome shows
+a "disable developer mode extensions" reminder on startup. Both are covered in
+[INSTALL.md](INSTALL.md).
 
 ## Build the store package
 
