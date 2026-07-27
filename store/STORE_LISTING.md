@@ -108,13 +108,19 @@ The extension's only function is sorting and filtering Instagram's own post grid
 
 **Data usage — what you collect**
 
-Leave every category **unchecked**. "Collect" in Google's terms means transferring
-data off the user's device, and Highwater transmits nothing — post data is read
-locally and written to `chrome.storage.local`.
+Check exactly one box: **Website content**. Leave the other eight unchecked
+(personally identifiable info, health, financial, authentication, personal
+communications, location, web history, user activity — none are touched).
 
-> If a reviewer pushes back on this, the fix is: check **Website content**, keep
-> the privacy policy URL in place, and resubmit. Don't check anything else —
-> nothing else is even touched.
+Reasoning: Highwater transmits nothing off the device, so a narrow reading of
+"collect" would mean checking nothing. But Google's definition also covers reading
+and accessing website data, and reviewers seeing a content script that parses
+Instagram responses expect Website content to be declared. Over-declaring is never
+a rejection cause; under-declaring is, and it counts as a policy violation on top.
+Take the safe side.
+
+This is consistent with the privacy policy, which spells out exactly what is read
+and that it stays local.
 
 **Certify all three checkboxes:**
 - ✔ I do not sell or transfer user data to third parties, outside of the approved use cases
