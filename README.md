@@ -18,16 +18,16 @@ the grid.
 
 ## Install
 
-A Chrome Web Store listing is pending review. Until it's live, install from the
-**[latest release](../../releases/latest)**: download the zip, extract it, and load
-it at `chrome://extensions` with **Developer mode** on → **Load unpacked**.
+**→ [Get Highwater from the Chrome Web Store](https://chromewebstore.google.com/detail/highwater/aiblhblmgmemcpcdkoedkbgpbckmhlpo)**
 
-**→ [Step-by-step install guide](INSTALL.md)** — written for non-technical users,
-with the common failure modes. Send people that link, not this one.
+The listing is unlisted, so that link is the only way to reach it. One click, and
+it auto-updates from then on.
 
-Note that extensions installed this way **do not auto-update**, and Chrome shows
-a "disable developer mode extensions" reminder on startup. Both are covered in
-[INSTALL.md](INSTALL.md); neither applies once the store listing is live.
+Chrome may warn that the extension "is not trusted by Enhanced Safe Browsing" —
+that reflects the listing's age, not a problem with it, and it clears on its own.
+[INSTALL.md](INSTALL.md) explains it in plain language and covers manual
+side-loading from the [latest release](../../releases/latest) as a fallback. Send
+people that link, not this one.
 
 ## Build the store package
 

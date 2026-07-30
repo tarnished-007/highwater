@@ -1,59 +1,27 @@
 # Installing Highwater
 
-Highwater isn't in the Chrome Web Store, so you install it from a folder on your
-own computer. It takes about two minutes. You don't need to be technical — just
-follow these in order.
-
 Works on **desktop Chrome, Edge, Brave, or Opera**. It cannot work on phones.
 
 ---
 
-## 1. Download it
+## Install (30 seconds)
 
-Go to the **[latest release](../../releases/latest)** and click the file ending
-in `.zip` (about 15 KB).
+**→ [Get Highwater from the Chrome Web Store](https://chromewebstore.google.com/detail/highwater/aiblhblmgmemcpcdkoedkbgpbckmhlpo)**
 
-## 2. Unzip it properly — this is where people go wrong
+Click **Add to Chrome**, then **Add extension**. That's it — it updates itself from
+here on.
 
-Windows lets you *peek* inside a zip without actually extracting it. Chrome
-cannot install from a peek.
+### You may see "Proceed with caution" — that's expected
 
-- **Windows:** right-click the downloaded zip → **Extract All…** → **Extract**
-- **Mac:** double-click the zip
+Chrome may show a dialog saying *"This extension is not trusted by Enhanced Safe
+Browsing."* **Click "Continue to install".**
 
-You'll get a **folder**. Move it somewhere permanent — **Documents** is good.
-
-> ⚠️ **Do not leave it in Downloads and do not delete or move it later.** Chrome
-> runs the extension from this folder forever. If the folder disappears, the
-> extension stops working.
-
-## 3. Open Chrome's extensions page
-
-Copy this into your address bar and press Enter:
-
-```
-chrome://extensions
-```
-
-## 4. Turn on Developer mode
-
-Top-right of that page, flip the **Developer mode** switch **on**. Three new
-buttons appear.
-
-## 5. Load the folder
-
-Click **Load unpacked** (top-left), then select the folder you extracted in
-step 2 and click **Select Folder**.
-
-Pick the folder that has `manifest.json` directly inside it. If you opened the
-folder and see another folder with the same name, go one level deeper.
-
-**Highwater should now appear in your list with a red icon.** That's it.
-
-## 6. Pin it (optional)
-
-Click the puzzle-piece icon in Chrome's toolbar, then the pin next to Highwater
-so you can always see it.
+This is not a virus warning and nothing was found wrong with Highwater. It means
+only that the extension is new and hasn't been in the store long enough to build a
+reputation with Google's Enhanced Safe Browsing system. Every brand-new extension
+from a new developer gets it. You'll only see it at all if you have Enhanced Safe
+Browsing switched on in Chrome's security settings — most people don't. It stops
+appearing on its own once the extension has been listed for a few months.
 
 ---
 
@@ -72,27 +40,13 @@ so you can always see it.
 
 You need to be logged into Instagram in that same browser, as normal.
 
----
-
-## Things you should expect
-
-**"Disable developer mode extensions" popup.** Chrome shows this on startup for
-any extension installed this way. It is not a virus warning — it's Chrome
-reminding you the extension didn't come from its store. Click the **X** to
-dismiss it. If you click *Disable*, Highwater turns off and you'll need to
-re-enable it at `chrome://extensions`.
-
-**It doesn't update itself.** Store extensions update silently; this one can't.
-When there's a new version you'll get a new zip, and you repeat steps 1–5 (use
-**Remove** on the old one first).
+**Nothing is uploaded anywhere.** No account, no server, no tracking. Everything
+stays in your browser on your machine — see the
+[privacy policy](https://tarnished-007.github.io/highwater/privacy.html).
 
 **It stops collecting posts one day.** Instagram changes how its website works
 every so often, which breaks the part of Highwater that reads the numbers. That's
-expected, not something you broke — ask for an updated version.
-
-**Nothing is uploaded anywhere.** No account, no server, no tracking. Everything
-stays in your browser on your machine — see the
-[privacy policy](docs/privacy.html).
+expected, not something you broke — an update will follow.
 
 ---
 
@@ -100,13 +54,49 @@ stays in your browser on your machine — see the
 
 | What you see | Fix |
 |---|---|
-| "Manifest file is missing or unreadable" | You selected the wrong folder, or you loaded the zip instead of the extracted folder. Redo step 2. |
-| Extension loads but no red button on Instagram | Reload the Instagram tab (F5). It only runs on `instagram.com`. |
+| No red button on Instagram | Reload the Instagram tab (F5). It only runs on `instagram.com`. |
 | Red button shows 0 and never rises | Scroll the page — it collects as posts load. Also check you're logged in. |
-| Everything vanished after a restart | The folder was moved or deleted. Re-extract and redo step 5. |
 | Panel opens but rows are empty | Click **Clear collected**, reload the page, scroll again. |
+| Nothing happens at all | Check it's enabled at `chrome://extensions`. |
 
 Still stuck: **msohaibn.007@gmail.com**
+
+---
+
+<details>
+<summary><strong>Manual install (only if you can't use the store)</strong></summary>
+
+Use this only if the store listing is unavailable to you. Installed this way the
+extension **will not auto-update**, and Chrome shows a "disable developer mode
+extensions" reminder every startup.
+
+**1. Download** the `.zip` from the [latest release](../../releases/latest) (~15 KB).
+
+**2. Unzip it properly.** Windows lets you *peek* inside a zip without extracting
+it, and Chrome cannot install from a peek.
+
+- **Windows:** right-click the zip → **Extract All…** → **Extract**
+- **Mac:** double-click the zip
+
+Move the resulting **folder** somewhere permanent — Documents is good.
+
+> ⚠️ Do not leave it in Downloads and do not delete or move it later. Chrome runs
+> the extension from that folder forever. If it disappears, the extension breaks.
+
+**3.** Put `chrome://extensions` in your address bar and press Enter.
+
+**4.** Turn on **Developer mode** (top-right switch).
+
+**5.** Click **Load unpacked**, select the folder from step 2, click **Select
+Folder**. Pick the folder with `manifest.json` directly inside it — if you see
+another folder of the same name, go one level deeper.
+
+**6.** Optional: click the puzzle-piece icon in the toolbar and pin Highwater.
+
+If you see *"Manifest file is missing or unreadable"*, you selected the wrong
+folder or loaded the zip instead of the extracted folder. Redo step 2.
+
+</details>
 
 ---
 
